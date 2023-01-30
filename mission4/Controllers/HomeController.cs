@@ -23,7 +23,7 @@ namespace mission4.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult GradeCalculator()
         {
             return View();
         }

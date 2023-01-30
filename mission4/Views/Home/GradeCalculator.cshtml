@@ -1,0 +1,68 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<p class="title">Grade Calculator</p>
+<form class="box">
+    <p>Input your results as percentages below: </p><br /><br />
+    <div class="field">
+        <label class="label">Assignments</label>
+        <div class="control">
+            <input name="assignments" id="assignments" class="input" type="number" placeholder="input as a whole number with no percent (ex. 50% = 50)">
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">Group Project</label>
+        <div class="control">
+            <input name="groupproject" id="groupproject" class="input" type="number" placeholder="input as a whole number with no percent (ex. 50% = 50)">
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">Quizzes</label>
+        <div class="control">
+            <input name="quizzes" id="quizzes" class="input" type="number" placeholder="input as a whole number with no percent (ex. 50% = 50)">
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">Midterm Exam</label>
+        <div class="control">
+            <input name="midterm" id="midterm" class="input" type="number" placeholder="input as a whole number with no percent (ex. 50% = 50)">
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">Final Exam</label>
+        <div class="control">
+            <input name="final" id="final" class="input" type="number" placeholder="input as a whole number with no percent (ex. 50% = 50)">
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">INTEX</label>
+        <div class="control">
+            <input name="intex" id="intex" class="input" type="number" placeholder="input as a whole number with no percent (ex. 50% = 50)">
+        </div>
+    </div>
+
+    <button class="button is-primary" id="btnSend">Calculate</button><br /><br />
+    <p class="subtitle is-5">Your Expected Final Grade</p>
+    <p id="finalGrade" class="title"></p>
+</form>
+</div>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            <strong id="custom_style">Portfolio Website</strong> by <a href="https://jgthms.com">Andrew Graviet</a>.<br />
+            Student at <strong>Brigham Young University, Information Systems Management</strong><br />
+        </p>
+        <p id="customText">This is a custom element to show i know how to  use css</p>
+    </div>
+</footer>
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="js/site.js"></script>
