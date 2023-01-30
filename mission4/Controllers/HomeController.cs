@@ -23,7 +23,14 @@ namespace mission4.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult GradeCalculator()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult GradeCalculator(GradeModel model)
         {
             return View();
         }
